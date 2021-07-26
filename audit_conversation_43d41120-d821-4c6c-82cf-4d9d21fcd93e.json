@@ -1,0 +1,463 @@
+{
+  "report": {
+    "docType": "iam.identity-access-map",
+    "version": "1.0.0",
+    "createdById": "IBMid-6610029Y4N",
+    "date": "2021-07-26T22:26:30.887Z",
+    "fullReport": true,
+    "displayName": "Abdulaziz AlHubaishi",
+    "contact": "hubaai0a@hotmail.com"
+  },
+  "responses": [
+    {
+      "resource": {
+        "crn": "crn:v1:bluemix:public:conversation:eu-de:a/b0e09ba5cdf344af9eb5aa19e1e8a1cc:43d41120-d821-4c6c-82cf-4d9d21fcd93e::",
+        "displayName": "assistant QQGYH 2021-07-24",
+        "serviceName": "conversation",
+        "resourceGroupId": "85161f3d4b404811b75362b7f9a14565",
+        "resourceGroupName": "Default"
+      },
+      "access": [
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-465624f4-e7a2-4ddf-bf5a-a04db32a5f2b",
+              "displayName": "Auto-generated credentials"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "displayName": "",
+                "description": ""
+              },
+              "actions": [
+                {
+                  "action": "POST /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.skill.read",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.write",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "PUT /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.default",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "PATCH /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.list",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.legacy",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.logs.read",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "GET /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.skill.write",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "DELETE /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.read",
+                  "displayName": "",
+                  "description": ""
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/serviceids/ServiceId-465624f4-e7a2-4ddf-bf5a-a04db32a5f2b/policies/8661d314-a51b-4db8-9f22-c5aed15b7238"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                  "displayName": "",
+                  "description": ""
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "",
+                    "description": ""
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/serviceids/ServiceId-465624f4-e7a2-4ddf-bf5a-a04db32a5f2b/policies/8661d314-a51b-4db8-9f22-c5aed15b7238"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "user": {
+              "id": "IBMid-6610029Y4N",
+              "displayName": "Abdulaziz AlHubaishi",
+              "contact": "hubaai0a@hotmail.com"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "displayName": "",
+                "description": ""
+              },
+              "actions": [
+                {
+                  "action": "POST /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.skill.read",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.write",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "PUT /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.default",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "PATCH /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.list",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.legacy",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.logs.read",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "GET /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.skill.write",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "DELETE /conversation",
+                  "displayName": "",
+                  "description": ""
+                },
+                {
+                  "action": "conversation.assistant.read",
+                  "displayName": "",
+                  "description": ""
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/users/IBMid-6610029Y4N/policies/fdf304d5-ad59-4b87-9a9f-02042767b735"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                  "displayName": "",
+                  "description": ""
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "",
+                    "description": ""
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/users/IBMid-6610029Y4N/policies/fdf304d5-ad59-4b87-9a9f-02042767b735"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator",
+                  "displayName": "",
+                  "description": ""
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.update",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.role.read",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.update",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-access-tag",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.delete",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.service.read",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.role.assign",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.update",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.delete",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.delete",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.update",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.delete",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.update",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.update",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.delete",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-access-tag",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.create",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan",
+                    "displayName": "",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.delete",
+                    "displayName": "",
+                    "description": ""
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/users/IBMid-6610029Y4N/policies/fdf304d5-ad59-4b87-9a9f-02042767b735"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
